@@ -8,9 +8,6 @@
   --fam1:'Trebuchet MS';
   --fam2:'Franklin Gothic Medium';
 }
-.App{
-  min-height: 300vh;
-}
 input{
   outline: none;
 }
@@ -121,6 +118,13 @@ nav h1{
   border-bottom: solid 1px gray;
   min-height: calc(100vh - 50px);
 }
+.sideBar h1{
+  margin-bottom: 25px;
+  color: rgb(30, 30, 30);
+  font-family: var(--fam2);
+  margin-left: 15px;
+  margin-top: 10px;
+}
 .middle{
   width: 70%;
   margin-left: 2.5%;
@@ -171,6 +175,12 @@ nav h1{
   font-family: 'Franklin Gothic Medium';
   color: rgb(52, 51, 51);
 }
+.news .choices div{
+  display: flex;
+}
+.news .choices div p{
+  margin-left: 5px;
+}
 .news .choices button{
   padding: 8px 15px;
   background-color:rgb(3, 109, 3);
@@ -178,6 +188,17 @@ nav h1{
   border: none;
   font-family: var(--fam2);
   border-radius: 8px;
+}
+#fileDisplayArea{
+  width: 100%;
+  height: 400px;
+  padding-bottom: 10px;
+}
+#fileDisplayArea img  {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border: solid 1px rgb(52, 51, 51);
 }
 label.label input[type="file"] {
   position: absolute;
@@ -199,4 +220,78 @@ label.label input[type="file"] {
 }
 .label:valid+span {
   color: #ffffff;
+}
+.Post{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px gray;
+  padding: 10px;
+  margin-top: 25px;
+}
+.Post .headerContainer{
+  width: fit-content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.Post .headerContainer div:nth-child(1){
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.Post .headerContainer div:nth-child(1) img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.Post .headerContainer div:nth-child(2){
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.Post .headerContainer div:nth-child(2) h1{
+  font-size: 15px;
+  font-family: var(--fam2);
+}
+.Post .headerContainer div:nth-child(2) p{
+  font-size: 12px;
+  font-family: var(--fam1);
+  color: rgb(52, 51, 51);
+}
+.Post .attContainer{
+  width: 100%;
+  padding: 20px;
+}
+.Post .attContainer div:nth-child(1) h1{
+  font-size: 16px;
+  color: rgb(30, 30, 30);
+  float: left;
+  font-family: var(--fam1);
+  padding-bottom: 10px;
+}
+.Post .attContainer div:nth-child(2){
+  width: 100%;
+  height: 400px;
+}
+.Post .attContainer div:nth-child(2) img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Post .likesComm{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.Post .likesComm div:nth-child(1){
+  display: flex;
+  padding-top: 10px;
+}
+.Post .likesComm i{
+  margin-right: 10px;
+  cursor: pointer;
 }
