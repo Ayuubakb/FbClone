@@ -4,7 +4,7 @@ import Friend from './Friend';
 
 const RightBar = () => {
   return (
-    <div className='rightBar'>
+    <div className='rightBar' id='rightBar'>
         <div className='options'>
             <div>
                 <p>Feed</p>

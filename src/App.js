@@ -7,11 +7,12 @@ import TimeLine from './pages/TimeLine';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 
 function App() {
+  
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Nav/>} >
+          <Route element={<Nav/>} >
             <Route index element={<TimeLine/>}></Route>
             <Route path='Home' element={<Home />}></Route>
           </Route>
