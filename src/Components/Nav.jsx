@@ -103,8 +103,8 @@ function Nav(){
                 <div className='options' id='options'>
                     <div>
                         <ul>
-                            <Link to='/Home'><li>HomePage</li></Link>
-                            <Link to='/'><li>TimeLine</li></Link>
+                            <Link to='FbClone/Home'><li>HomePage</li></Link>
+                            <Link to='FbClone/'><li>TimeLine</li></Link>
                         </ul>
                     </div>
                     <div>
@@ -117,7 +117,6 @@ function Nav(){
                 </div>
             </div>
         </nav>
-        <Outlet/>
         </>
     );
 }

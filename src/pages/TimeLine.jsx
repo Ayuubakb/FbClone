@@ -8,7 +8,7 @@ const TimeLine = () => {
     return (
     <section className='sec'>
       <div className='middle'>
-        <News srcImg="/assets/person/1.jpeg" name='Safak'/>
+        <News srcImg="assets/person/1.jpeg" name='Safak'/>
         {
           Posts.map(post=>{
             let img;
