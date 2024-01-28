@@ -1,7 +1,7 @@
 # Ayuubakb.github.io
 Facebook Clone for timeline and HomePage
 -
-A responsive clone for the 2 facebook's main pages, using react and react-router-dom 
+A responsive clone for the 2 facebook's main pages, using react and react-router-dom/
 you can take a look at : https://ayuubakb.github.io/FbClone/
 :smile:. 
 
