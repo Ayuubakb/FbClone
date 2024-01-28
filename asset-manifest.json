@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/FbClone/static/css/main.d7ce64f4.css",
-    "main.js": "/FbClone/static/js/main.c39de325.js",
+    "main.js": "/FbClone/static/js/main.87ddbff7.js",
     "index.html": "/FbClone/index.html",
     "main.d7ce64f4.css.map": "/FbClone/static/css/main.d7ce64f4.css.map",
-    "main.c39de325.js.map": "/FbClone/static/js/main.c39de325.js.map"
+    "main.87ddbff7.js.map": "/FbClone/static/js/main.87ddbff7.js.map"
   },
   "entrypoints": [
     "static/css/main.d7ce64f4.css",
-    "static/js/main.c39de325.js"
+    "static/js/main.87ddbff7.js"
   ]
 }
