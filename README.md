@@ -14,9 +14,7 @@ One of My first REACT Applications, showing Facebook's timeline + profile page C
 
 - Phone View : 
 
-![Alt text](/public/assets/phone1.png)
--------------------------------------------------
-![Alt text](/public/assets/phone2.png)
+![Alt text](/public/assets/phone1.png) ![Alt text](/public/assets/phone2.png)
 -------------------------------------------------
 ![Alt text](/public/assets/phone3.png)
 
